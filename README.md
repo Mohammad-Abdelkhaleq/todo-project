@@ -1,3 +1,3 @@
 # todo-project
-![listPage ](./assets/Screenshot%202023-03-28%20133018.png)
-![homePage ](./assets/Screenshot%202023-03-28%20133038.png)
+![listPage ](./assets/wireframe%201.png)
+![homePage ](./assets/wireframe%202.png)
