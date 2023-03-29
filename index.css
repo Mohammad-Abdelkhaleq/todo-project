@@ -1,0 +1,39 @@
+
+
+nav a {
+    background-color: green;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex
+}
+.mid{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    text-align: center;
+}
+th,td{
+    text-align: center;
+    border: 3px solid green;
+    width: 100px;
+}
+.table {
+    padding-left: 30%;
+    background-color: aqua;
+}
+footer{
+    background-color: blueviolet;
+    font-size: xx-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+tr td:nth-child(2){
+    background-color: brown;
+}

@@ -6,30 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./about.css">
 </head>
 
 <body>
     <header>
 
-        <a href="/html/"></a><img src="./assets/orchestra logo.png" alt="orchestra logo"></a>
-        Orchestra
+        <a href="/html/"><img src="./assets/orchestra logo.png" alt="orchestra logo"></a>
+
         <nav>
-            <a href="./index.html">home</a> |
-            <a href="about.html">about our website</a> |
+            <a href="./index.html">home</a> 
+            <a href="about.html">about our website</a> 
         </nav>
     </header>
     <main>
-        <section>
-            <img src="./assets/pesronal place holder img.png" alt="pesronal place holder img"><br>
-            name:<br>
-            birthday:<br>
-            description:
+        <section class="sec1">
+            <img class="center" src="./assets/pesronal place holder img.png" alt="pesronal place holder img"><br>
+            <div class="info">
+            name: mohammad abdelkhaleq<br>
+            birthday: thousand years ago<br>
+            description: i hate css
+            </div>
         </section>
         <br>
         <hr>
         <br>
         <section>
-            <form action="">
+            <div><form action="">
                 <label for="name">
                     <pre>Enter your name</pre>
                 </label>
@@ -47,8 +51,9 @@
                     <pre> Birthday:</pre>
                 </label>
                 <input type="date" id="birthday" name="birthday"><br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="submit">
             </form>
+            </div>
         </section>
     </main>
     <br>

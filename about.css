@@ -1,0 +1,53 @@
+nav a {
+    background-color: green;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex
+}
+
+/*.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+/*.info {
+    display: block;
+    margin-left: 15%;
+    margin-right: auto;
+
+}*/
+center {
+    width: 50%;
+    float: left;
+    border: 3px solid;
+}
+.info {
+
+  width: 50%;
+  float: right;
+  
+}
+
+form {
+    border: 3px solid green;
+    margin: auto;
+  width: 50%;
+}
+footer{
+    background-color: blueviolet;
+    font-size: xx-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.submit{
+    
+}
+
