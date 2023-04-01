@@ -1,53 +1,56 @@
-nav a {
-    background-color: green;
-    text-decoration: none;
-    color: aliceblue;
-    padding: 45px;
-    justify-content: center;
-    align-items: center;
-}
-
-header {
-    background-color: blueviolet;
-    display: flex
-}
-
-/*.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-
-/*.info {
-    display: block;
-    margin-left: 15%;
-    margin-right: auto;
-
-}*/
-center {
-    width: 50%;
-    float: left;
-    border: 3px solid;
-}
-.info {
-
-  width: 50%;
-  float: right;
-  
-}
-
-form {
-    border: 3px solid green;
-    margin: auto;
-  width: 50%;
-}
-footer{
+footer {
     background-color: blueviolet;
     font-size: xx-small;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
 }
-.submit{
-    
+img {
+    display: block;
+    height: 100%;
 }
 
+header {
+    background-color: aqua;
+    height: 70px;
+    ;
+    display: flex;
+    height: 100%;
+
+}
+
+nav {
+    display: flex;
+    border-collapse: collapse;
+}
+a.amer {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+    border: 0px solid black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/*here i finished the header styling */
+.sec1{
+    display: flex;
+    background-color:burlywood;
+}
+.personal-pic{
+width: 70px;
+padding-right: 5%;
+}
+.info{
+    font-style: oblique;
+    font-family: monospace;
+}
+.sec2{
+    border: 2px solid green;
+    display: flex;
+    background-color:burlywood;
+}
+form{
+    margin-left: 70px;
+}
