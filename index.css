@@ -22,11 +22,14 @@ header {
 th,td{
     text-align: center;
     border: 3px solid green;
-    width: 100px;
+    width: 1%;
+    box-sizing:border-box;
+    
 }
-.table {
-    padding-left: 30%;
+table {
     background-color: aqua;
+    display: block;
+
 }
 footer{
     background-color: blueviolet;
