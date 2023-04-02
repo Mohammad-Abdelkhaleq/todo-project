@@ -49,7 +49,7 @@ if (welcome==true){
         case "male":
             gender="mr"
             break;
-        case "male":
+        case "female":
             gender="ms"
             break;    
 
