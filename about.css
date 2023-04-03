@@ -1,23 +1,21 @@
-footer {
-    background-color: blueviolet;
-    font-size: xx-small;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
-}
+/* body{
+    background-color: transparent;
+} */
 img {
     display: block;
     height: 100%;
 }
 
 header {
-    background-color: aqua;
+    background-color: #B2A4FF;
     height: 70px;
-    ;
+    
     display: flex;
     height: 100%;
-
+    /* position: fixed; */ /*WHEN I USED THIS PROPERTY THE WHOLE IMG COVER THE SCREEN */
+    top: 0; 
+    position: sticky;
 }
-
 nav {
     display: flex;
     border-collapse: collapse;
@@ -34,9 +32,60 @@ a.amer {
 }
 
 /*here i finished the header styling */
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+.side-bar{
+    background-color: #FFDEB4;
+    width: 30px;
+    height: 400px;
+    overflow: scroll;
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+}
+.side-bar a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+.side-bar a:hover{
+    background-color:#FFB4B4 ;
+}
+
+
+.div-holding-info{
+    background-color:#FFB4B4;
+    flex-grow: 5;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow: scroll;
+    width: 500px;
+}
 .sec1{
     display: flex;
-    background-color:burlywood;
+    background-color:#FFB4B4;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    align-self: flex-start;
+    
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFB4B4;
+    align-self: stretch;
+
 }
 .personal-pic{
 width: 70px;
@@ -45,12 +94,29 @@ padding-right: 5%;
 .info{
     font-style: oblique;
     font-family: monospace;
-}
-.sec2{
-    border: 2px solid green;
-    display: flex;
-    background-color:burlywood;
+    margin-top: 20px;
 }
 form{
     margin-left: 70px;
 }
+
+
+
+
+.holding-p{
+    background-color: #FFB4B4;
+}
+
+/* here i finished styling the main  */
+
+
+
+
+    footer {
+        background-color: #FDF7C3;
+        font-size: xx-small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        position: sticky;
+        bottom: 0;
+    }

@@ -1,15 +1,22 @@
+body{
+    position: relative;
+}
+
 img {
     display: block;
     height: 100%;
 }
 
 header {
-    background-color: aqua;
+    background-color: #B2A4FF;
     height: 70px;
-    ;
+
     display: flex;
     height: 100%;
-
+    /* position: fixed; */
+    /*WHEN I USED THIS PROPERTY THE WHOLE IMG COVER THE SCREEN */
+    top: 0;
+    position: sticky;
 }
 
 nav {
@@ -28,13 +35,21 @@ a.amer {
     text-decoration: none;
 }
 
+
+/* here i finished styling the header  */
+
+
+
 div.mid {
     display: flex;
-    background-color: darkseagreen;
+    background-color: #FFB4B4;
     height: 70px;
     text-align: center;
     font-size: xx-large;
     justify-content: center;
+    position: sticky;
+    top: 64px;
+
 }
 
 .check-mark {
@@ -43,7 +58,6 @@ div.mid {
     justify-content: center;
     align-self: center;
     margin-left: 10px;
-    padding: ;
 }
 
 .under {
@@ -56,32 +70,51 @@ div.mid {
 .table {
     display: flex;
     justify-content: center;
+    background-color: #FFDEB4;
+    height: 400px;
+    overflow: scroll;
 }
 
 table {
     border: 2px solid green;
-    width: 100%;
-    background-color: aliceblue;
+    width: 500px;
+    background-color: green;
+    overflow: scroll;
+
+
 }
 
 td,
 th {
     border: 2px solid green;
     text-align: center;
-    background-color: bisque;
+    background-color: #FFDEB4;
+    width: 250px;
 }
 
 th {
     background-color: aquamarine;
+    
 }
+
+
+
+
+
+
 
 .my-rule {
     background-color: red !important;
+    border: 2px solid green;
+    height: 10px;
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: #FDF7C3;
     font-size: xx-small;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
+    position: sticky;
+    bottom: 0;
+    border-top: 1px solid black;
 }
